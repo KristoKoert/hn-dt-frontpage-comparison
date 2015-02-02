@@ -1,22 +1,22 @@
 {
-    "2015-02-01 17:43:52.497287": {
-        "http://news.ycombinator.com": "data/raw_html/6c655dce-6c7e-417c-ad09-b7352e4e15a2.html",
-        "http://www.datatau.com": "data/raw_html/3d6f8516-5efc-434c-8695-0a1b7ff54ad3.html"
+    "2015-02-02 14:17:37.968937": {
+        "http://news.ycombinator.com": "data/raw_html/523606f8-ddb3-46aa-94ba-039fdd9e9963.html",
+        "http://www.datatau.com": "data/raw_html/ad2036aa-0504-4cf7-9608-d89e538f5805.html"
     },
-    "2015-02-01 17:59:00.889686": {
-        "http://news.ycombinator.com": "data/raw_html/086faa00-a454-4215-b217-b692513e25af.html",
-        "http://www.datatau.com": "data/raw_html/ae0788a8-bdba-430c-ae65-2e14dcedb0b0.html"
+    "2015-02-02 14:18:11.101654": {
+        "http://news.ycombinator.com": "data/raw_html/c71238bb-2a90-4425-93c9-2c695e6a7a1a.html",
+        "http://www.datatau.com": "data/raw_html/5a2e0991-b750-47ce-abcb-0d9b8ba25e40.html"
     },
-    "2015-02-01 22:28:05.999338": {
-        "http://news.ycombinator.com": "data/raw_html/9e002446-1be9-497d-8606-db1a80373227.html",
-        "http://www.datatau.com": "data/raw_html/5e9ce50e-3c49-4184-8b1f-e56eeea6a05b.html"
+    "2015-02-02 14:20:32.021819": {
+        "http://news.ycombinator.com": "data/raw_html/14fb7fee-e19b-47aa-a20c-c171ee24f7ff.html",
+        "http://www.datatau.com": "data/raw_html/6468e10a-c9f5-4cfa-8ce0-1d286c78a8ec.html"
     },
-    "2015-02-02 10:18:53.610140": {
-        "http://news.ycombinator.com": "data/raw_html/6c21e7d6-444d-4935-b615-ba7e15529d5b.html",
-        "http://www.datatau.com": "data/raw_html/cf304d9b-c6c0-4f6b-b89a-392577120775.html"
+    "2015-02-02 18:46:55.980484": {
+        "http://news.ycombinator.com": "data/raw_html/bbdb564c-843b-48ba-8014-02d495fc23a9.html",
+        "http://www.datatau.com": "data/raw_html/5e85757e-80ad-4372-8f46-5c525928ce2c.html"
     },
-    "2015-02-02 11:02:10.186852": {
-        "http://news.ycombinator.com": "data/raw_html/67e6c517-bbbc-4bec-973f-4dee08b4bcff.html",
-        "http://www.datatau.com": "data/raw_html/fea31cff-0c24-40f4-bfa4-6661188ab997.html"
+    "2015-02-02 21:19:18.149532": {
+        "http://news.ycombinator.com": "data/raw_html/77742f4f-3110-4c09-8a7f-d0ada99c9bc9.html",
+        "http://www.datatau.com": "data/raw_html/7bba4608-dfb5-4e21-8117-e350e0809c37.html"
     }
 }
