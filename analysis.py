@@ -3,14 +3,20 @@ from functools import reduce
 from util import HN_KEY, DT_KEY, average
 from util import write_json
 
-DATA = json.load(open("data/aggregation_results.json", "r"))
-DATETIMES = list(DATA.keys())
-DATETIMES.sort()
+
+def _get_data():
+    return json.load(open("data/aggregation_results.json", "r"))
+
+
+def _get_datetimes():
+    datetimes = list(_get_data().keys())
+    datetimes.sort()
+    return datetimes
 
 
 def _apply_to_datetimes(f):
     """Applies function to all dates that the data contains."""
-    for datetime in DATETIMES:
+    for datetime in _get_datetimes():
         yield f(datetime)
 
 
@@ -27,7 +33,7 @@ def _pair_datetimes():
         paired_datetimes.append((d1, d2))
         return d2
 
-    reduce(pair_and_return_later_datetime, DATETIMES)
+    reduce(pair_and_return_later_datetime, _get_datetimes())
     return paired_datetimes
 
 
@@ -41,8 +47,9 @@ def _vals_on_all_datetimes(key, hn=True, dt=True):
     :rtype: list
 
     """
+    data = _get_data()
     on_dates = lambda hn_or_dt: list(_apply_to_datetimes(
-        lambda d: DATA[d][hn_or_dt][key]))
+        lambda d: data[d][hn_or_dt][key]))
     if hn and dt:
         return _flatten_list_of_lists(on_dates(HN_KEY)) + \
             _flatten_list_of_lists(on_dates(DT_KEY))
@@ -63,9 +70,10 @@ def _overlap_of_links(l):
 
 def link_overlap_on_datetimes():
     """Returns overlap data of every run."""
+    data = _get_data()
     links_on_datetimes = list(_apply_to_datetimes(lambda d:
-                                                  DATA[d][DT_KEY]["links"] +
-                                                  DATA[d][HN_KEY]["links"]))
+                                                  data[d][DT_KEY]["links"] +
+                                                  data[d][HN_KEY]["links"]))
 
     # Overlap of links on any given run
     overlap_on_datetimes = list(map(lambda ld:
@@ -92,8 +100,8 @@ def nr_of_new_posts():
     datetime_pairs = _pair_datetimes()
 
     def diff_on_datetimes(dt1, dt2, hn_or_dt):
-        links_first_run = DATA[dt1][hn_or_dt]["links"]
-        links_second_run = DATA[dt2][hn_or_dt]["links"]
+        links_first_run = _get_data()[dt1][hn_or_dt]["links"]
+        links_second_run = _get_data()[dt2][hn_or_dt]["links"]
         new_links = 0
         for link in links_second_run:
             if link not in links_first_run:
@@ -148,9 +156,9 @@ def averages_on_datetimes(key):
         DT_KEY: []
     }
 
-    for dt in DATETIMES:
-        averages[HN_KEY].append(average(DATA[dt][HN_KEY][key]))
-        averages[DT_KEY].append(average(DATA[dt][DT_KEY][key]))
+    for dt in _get_datetimes():
+        averages[HN_KEY].append(average(_get_data()[dt][HN_KEY][key]))
+        averages[DT_KEY].append(average(_get_data()[dt][DT_KEY][key]))
 
     return averages
 
@@ -168,9 +176,9 @@ def highest_values_on_datetimes(key):
         DT_KEY: []
     }
 
-    for dt in DATETIMES:
-        highest_values[HN_KEY].append(max(DATA[dt][HN_KEY][key]))
-        highest_values[DT_KEY].append(max(DATA[dt][DT_KEY][key]))
+    for dt in _get_datetimes():
+        highest_values[HN_KEY].append(max(_get_data()[dt][HN_KEY][key]))
+        highest_values[DT_KEY].append(max(_get_data()[dt][DT_KEY][key]))
 
     return highest_values
 
@@ -199,5 +207,3 @@ def run():
         }
     }
     write_json(results, "data/analysis_results.json")
-
-run()

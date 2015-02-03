@@ -45,6 +45,3 @@ def store_frontpages(frontpages):
 
 def run():
     append_to_index(store_frontpages(download_frontpages()))
-
-
-run()

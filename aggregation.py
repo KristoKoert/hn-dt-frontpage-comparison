@@ -102,5 +102,3 @@ def run():
             }
         }
     write_json(results, "data/aggregation_results.json")
-
-run()
