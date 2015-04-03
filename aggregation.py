@@ -67,9 +67,19 @@ def extract_post_ages(html_soup_subtexts):
         else:
             raise RuntimeError
 
-    get_hours = lambda st: account_for_units(
-        int(st.contents[4].split()[0]), st.contents[4])
+    # print(html_soup_subtexts)
 
+    get_hours = lambda st: account_for_units(
+        int(str(st.contents[5]).split()[2]), str(st.contents[5]))
+
+    for sub_text in html_soup_subtexts:
+        print("Sub Text:", sub_text)
+        print("Contents:", sub_text.contents)
+        for i in range(len(sub_text.contents)):
+            print(i, str(sub_text.contents[i]).split())
+        print("Hours:   ", get_hours(sub_text))
+
+    #     assert False
     return list(map(get_hours, html_soup_subtexts))
 
 
