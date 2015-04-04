@@ -15,9 +15,15 @@ def run_every_hour(end):
 
 def run():
     print("Running @", datetime.now())
+    print("Downloading data..")
     collection.run()
+    print("Aggregating data..")
     aggregation.run()
+    print("Analyzing data..")
     analysis.run()
+    print("Creating plots..")
     visualization.run()
+    print("Done!")
+    
 
 run_every_hour(datetime.now())
