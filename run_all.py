@@ -7,10 +7,10 @@ from time import sleep
 
 
 def run_every_hour(end):
-    run()
     while datetime.now() < end:
-        sleep(60)
-    run_every_hour(datetime.now()+timedelta(hours=1))
+        sleep(15)
+    run()
+    run_every_hour(datetime.now() + timedelta(hours=1))
 
 
 def run():
