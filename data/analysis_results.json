@@ -1,1 +1,86 @@
-{}
+{
+    "link_overlap": {
+        "average": 0.0,
+        "on_runs": [
+            0,
+            0,
+            0
+        ]
+    },
+    "new_posts": {
+        "DataTau": [
+            0,
+            0
+        ],
+        "HackerNews": [
+            1,
+            1
+        ]
+    },
+    "nr_of_comments": {
+        "average": {
+            "DataTau": 2.6,
+            "HackerNews": 13.218390804597702
+        },
+        "highest": {
+            "DataTau": 16,
+            "HackerNews": 23
+        },
+        "on_runs": {
+            "DataTau": [
+                2.6,
+                2.6,
+                2.6
+            ],
+            "HackerNews": [
+                12.620689655172415,
+                13.206896551724139,
+                13.827586206896552
+            ]
+        }
+    },
+    "post_ages": {
+        "average": {
+            "DataTau": 152.53333333333333,
+            "HackerNews": 13.218390804597702
+        },
+        "highest": {
+            "DataTau": 408,
+            "HackerNews": 23
+        },
+        "on_runs": {
+            "DataTau": [
+                152.0,
+                152.8,
+                152.8
+            ],
+            "HackerNews": [
+                12.620689655172415,
+                13.206896551724139,
+                13.827586206896552
+            ]
+        }
+    },
+    "scores": {
+        "average": {
+            "DataTau": 10.5,
+            "HackerNews": 152.6206896551724
+        },
+        "highest": {
+            "DataTau": 23,
+            "HackerNews": 979
+        },
+        "on_runs": {
+            "DataTau": [
+                10.5,
+                10.5,
+                10.5
+            ],
+            "HackerNews": [
+                148.51724137931035,
+                152.31034482758622,
+                157.0344827586207
+            ]
+        }
+    }
+}

@@ -1,1 +1,14 @@
-{}
+{
+    "2015-04-04 10:47:08.411012": {
+        "http://news.ycombinator.com": "data/raw_html/4025d02c-b933-4e98-be47-e2511fc9d73a.html",
+        "http://www.datatau.com": "data/raw_html/6130b8c6-7b9e-4dce-9f35-0d63933af47f.html"
+    },
+    "2015-04-04 11:48:07.416551": {
+        "http://news.ycombinator.com": "data/raw_html/a68276b9-1696-4218-ad55-c6aa17b071f1.html",
+        "http://www.datatau.com": "data/raw_html/9badeccf-25bf-4cb4-a5c5-c6d59c39c88f.html"
+    },
+    "2015-04-04 12:49:06.209142": {
+        "http://news.ycombinator.com": "data/raw_html/ed002928-6c92-4bb3-a370-59bd4d391d33.html",
+        "http://www.datatau.com": "data/raw_html/41b1984d-d1a3-4900-9950-6667000ed3e7.html"
+    }
+}
