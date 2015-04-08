@@ -12,20 +12,31 @@ def _get_nr_of_runs():
 
 
 def _lim_max_and_buffer(data):
+    if len(data) == 0:
+        return 1, 0
     max_val = max(data)
+    if max_val == 0:
+        return 1, 0
     buff = max_val/100 * 10
     return max_val, buff
 
 
 def plot_link_overlap():
     overlap_on_runs = _get_analysis_results()["link_overlap"]["on_runs"]
+
     plt.plot(overlap_on_runs)
+
     plt.ylabel("Number of overlapping posts")
     plt.xlabel("Run number")
-    plt.ylim([0, max(overlap_on_runs) + 1])
+
+    ylim, ylim_buff = _lim_max_and_buffer(overlap_on_runs)
+
+    plt.ylim([0, ylim + ylim_buff])
     plt.xlim([0, _get_nr_of_runs()])
+
     title = "Overlap of links on HackerNews and DataTau frontpages"
     plt.title(title)
+
     plt.savefig('data/plots/link_overlap.png', bbox_inches='tight')
     plt.close()
 
