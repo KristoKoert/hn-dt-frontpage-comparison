@@ -6,11 +6,15 @@ from datetime import datetime, timedelta
 from time import sleep
 
 
-def run_every_hour(end):
-    while datetime.now() < end:
-        sleep(15)
-    run()
-    run_every_hour(datetime.now() + timedelta(hours=1))
+def run_in_interval(interval_hours):
+    next_run_time = datetime.now()
+    while True:
+        if datetime.now() > next_run_time:
+            next_run_time = datetime.now() + timedelta(hours=interval_hours)
+            run()
+            print("Next run @", next_run_time)
+        else:
+            sleep(10)
 
 
 def run():
@@ -24,6 +28,6 @@ def run():
     print("Creating plots..")
     visualization.run()
     print("Done!")
-    
 
-run_every_hour(datetime.now())
+
+run_in_interval(3)
