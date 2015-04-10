@@ -70,5 +70,9 @@
     "2015-04-10 15:23:58.145843": {
         "http://news.ycombinator.com": "data/raw_html/a99914ca-2029-4023-9c1b-9568cd5a1691.html",
         "http://www.datatau.com": "data/raw_html/1578d188-d9e0-4183-884c-0bccdcb1b85d.html"
+    },
+    "2015-04-10 18:23:58.401874": {
+        "http://news.ycombinator.com": "data/raw_html/ec79118d-fb3b-4bf5-934c-a78ca8d6cb52.html",
+        "http://www.datatau.com": "data/raw_html/015c00d5-4393-4ec8-ac89-1dd516e05ce9.html"
     }
 }
