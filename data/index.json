@@ -114,5 +114,17 @@
     "2015-04-11 23:32:25.816691": {
         "http://news.ycombinator.com": "data/raw_html/ec3d7eae-11ca-4090-8114-ca5c4993c816.html",
         "http://www.datatau.com": "data/raw_html/8df3e0ce-192c-4804-953d-16f86c0be576.html"
+    },
+    "2015-04-12 02:32:28.362486": {
+        "http://news.ycombinator.com": "data/raw_html/81c742e8-a028-41e1-a4f3-a777d95b9a1b.html",
+        "http://www.datatau.com": "data/raw_html/e60f3725-cdc9-40ec-b485-bf993eb32bc7.html"
+    },
+    "2015-04-12 05:32:33.488735": {
+        "http://news.ycombinator.com": "data/raw_html/713a3e12-b486-4529-ab9d-f2e52bf55136.html",
+        "http://www.datatau.com": "data/raw_html/e121b723-b330-4aa8-b032-e5ba124f2773.html"
+    },
+    "2015-04-12 08:32:38.159565": {
+        "http://news.ycombinator.com": "data/raw_html/4437dae7-9c39-4160-8b04-3bcd8ea3a192.html",
+        "http://www.datatau.com": "data/raw_html/5bcf17c5-08d9-49d1-962a-e392edf6a4cb.html"
     }
 }
