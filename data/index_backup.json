@@ -2045,5 +2045,135 @@
             "http://news.ycombinator.com": "data/raw_html/713a3e12-b486-4529-ab9d-f2e52bf55136.html",
             "http://www.datatau.com": "data/raw_html/e121b723-b330-4aa8-b032-e5ba124f2773.html"
         }
+    },
+    "2015-04-12 11:32:44.663850": {
+        "2015-04-08 12:22:57.164406": {
+            "http://news.ycombinator.com": "data/raw_html/dff144fa-cf1e-4798-9a74-8bbb3d33bed3.html",
+            "http://www.datatau.com": "data/raw_html/73884f72-2d34-45f3-81d9-809bcaa974f1.html"
+        },
+        "2015-04-08 15:23:04.666617": {
+            "http://news.ycombinator.com": "data/raw_html/0fbd3ee6-d707-45ba-83bb-80c04ca1409f.html",
+            "http://www.datatau.com": "data/raw_html/3140aa92-213c-49aa-a123-bdfe22795d85.html"
+        },
+        "2015-04-08 18:23:13.226909": {
+            "http://news.ycombinator.com": "data/raw_html/3546e522-d0d4-4e92-b230-bd3801e4f576.html",
+            "http://www.datatau.com": "data/raw_html/49a11d93-bbbd-4f9c-b514-ef6d7998d16d.html"
+        },
+        "2015-04-08 21:23:18.856819": {
+            "http://news.ycombinator.com": "data/raw_html/11143df4-1e17-419b-b0ec-f38160b908fe.html",
+            "http://www.datatau.com": "data/raw_html/6c21477a-a645-4ce2-a77f-caa6f6dc7ae4.html"
+        },
+        "2015-04-09 00:23:19.998998": {
+            "http://news.ycombinator.com": "data/raw_html/fa8ce84c-a8a5-46b3-a179-130aa7206aa1.html",
+            "http://www.datatau.com": "data/raw_html/b24e9a89-f78f-411f-84b0-4cce603cbb0d.html"
+        },
+        "2015-04-09 03:23:29.554696": {
+            "http://news.ycombinator.com": "data/raw_html/6bbdb6c8-5bd4-44c1-8939-a6814b7ab140.html",
+            "http://www.datatau.com": "data/raw_html/e2ecdb05-cd75-4663-bae8-22053e1c11dc.html"
+        },
+        "2015-04-09 06:23:36.126902": {
+            "http://news.ycombinator.com": "data/raw_html/0530c98a-f313-4190-818a-870b11782bb6.html",
+            "http://www.datatau.com": "data/raw_html/369c5883-ad53-400c-9dc8-ffe37d5de52d.html"
+        },
+        "2015-04-09 09:23:37.708744": {
+            "http://news.ycombinator.com": "data/raw_html/e878f8d9-4fc3-4778-8e16-a8ca9d6e8ccd.html",
+            "http://www.datatau.com": "data/raw_html/1223fe41-7649-4e63-9395-7b0897cb405c.html"
+        },
+        "2015-04-09 12:23:48.489348": {
+            "http://news.ycombinator.com": "data/raw_html/dc08605f-6056-4ebd-8bc3-94d6f16699aa.html",
+            "http://www.datatau.com": "data/raw_html/d6582e92-cae3-4db1-999e-be61da959c40.html"
+        },
+        "2015-04-09 15:23:55.327273": {
+            "http://news.ycombinator.com": "data/raw_html/52452270-35d5-4775-9e48-4af86d56fcf4.html",
+            "http://www.datatau.com": "data/raw_html/126b34e0-93dc-4565-8112-d522af7d8d8c.html"
+        },
+        "2015-04-09 18:24:00.644804": {
+            "http://news.ycombinator.com": "data/raw_html/b39ede90-1faf-45a7-a770-af543cad2ac3.html",
+            "http://www.datatau.com": "data/raw_html/bb568972-1ae9-42fd-8b9a-c67bd01e7165.html"
+        },
+        "2015-04-09 21:24:00.810528": {
+            "http://news.ycombinator.com": "data/raw_html/fee387dc-6662-4227-8aae-10bb090c3030.html",
+            "http://www.datatau.com": "data/raw_html/5c900e28-3969-45f5-abc7-acea40a6a51c.html"
+        },
+        "2015-04-10 00:24:00.996115": {
+            "http://news.ycombinator.com": "data/raw_html/56cdf719-9881-4d80-9749-a6f9c63929d4.html",
+            "http://www.datatau.com": "data/raw_html/138bbc7d-b1be-4e41-b981-9ecef56b9d7b.html"
+        },
+        "2015-04-10 03:24:04.545726": {
+            "http://news.ycombinator.com": "data/raw_html/2e24b71a-f6c3-4216-8751-9c5b933bc38b.html",
+            "http://www.datatau.com": "data/raw_html/92f35df2-8cfa-430c-939f-b18f3fe7a280.html"
+        },
+        "2015-04-10 06:24:07.277042": {
+            "http://news.ycombinator.com": "data/raw_html/3a3195d3-610f-4d31-a28c-561dda3cd5ab.html",
+            "http://www.datatau.com": "data/raw_html/93ddec1f-3cbf-442c-b386-0133e0e74123.html"
+        },
+        "2015-04-10 09:23:49.720387": {
+            "http://news.ycombinator.com": "data/raw_html/08271d7c-2f36-44da-b5df-503e9a71635a.html",
+            "http://www.datatau.com": "data/raw_html/ec9eaf6d-748f-4b4f-a2b9-1c0014eaba92.html"
+        },
+        "2015-04-10 12:23:57.581844": {
+            "http://news.ycombinator.com": "data/raw_html/29ef4ebb-dbf1-4d18-9978-98499ff1b46e.html",
+            "http://www.datatau.com": "data/raw_html/036c6dd2-add4-41a6-8ad0-6e92643e7989.html"
+        },
+        "2015-04-10 15:23:58.145843": {
+            "http://news.ycombinator.com": "data/raw_html/a99914ca-2029-4023-9c1b-9568cd5a1691.html",
+            "http://www.datatau.com": "data/raw_html/1578d188-d9e0-4183-884c-0bccdcb1b85d.html"
+        },
+        "2015-04-10 18:23:58.401874": {
+            "http://news.ycombinator.com": "data/raw_html/ec79118d-fb3b-4bf5-934c-a78ca8d6cb52.html",
+            "http://www.datatau.com": "data/raw_html/015c00d5-4393-4ec8-ac89-1dd516e05ce9.html"
+        },
+        "2015-04-10 21:24:02.259205": {
+            "http://news.ycombinator.com": "data/raw_html/16d3184f-f278-4959-8377-83e4a10e0cdd.html",
+            "http://www.datatau.com": "data/raw_html/ba171f48-4dbe-4c4b-bfc3-72ca1459c5ed.html"
+        },
+        "2015-04-11 00:24:09.526772": {
+            "http://news.ycombinator.com": "data/raw_html/d27f9708-c3bb-4e83-869d-d0a27b7f45b6.html",
+            "http://www.datatau.com": "data/raw_html/d7d80861-3c01-4c7c-9142-9d4b44a627cd.html"
+        },
+        "2015-04-11 03:24:13.528938": {
+            "http://news.ycombinator.com": "data/raw_html/35b368a9-ea43-4671-88e2-8d62e611e760.html",
+            "http://www.datatau.com": "data/raw_html/82f7030b-b195-4865-9fb0-f1f154401b1e.html"
+        },
+        "2015-04-11 06:24:19.321115": {
+            "http://news.ycombinator.com": "data/raw_html/f2b2fe83-40b9-407b-9edb-bc8494486d7a.html",
+            "http://www.datatau.com": "data/raw_html/1655ce15-2efb-455e-a625-7dbf63c96792.html"
+        },
+        "2015-04-11 09:24:21.239118": {
+            "http://news.ycombinator.com": "data/raw_html/f61bf3cb-879b-4e38-b817-c1aec8b429e3.html",
+            "http://www.datatau.com": "data/raw_html/e60c1e79-f75d-4fc6-995f-f5c19c90d085.html"
+        },
+        "2015-04-11 12:24:25.510794": {
+            "http://news.ycombinator.com": "data/raw_html/033018b1-58a5-4261-8f22-e68602f98eb0.html",
+            "http://www.datatau.com": "data/raw_html/06375301-484c-4cbe-bb7e-507655eba7e1.html"
+        },
+        "2015-04-11 15:24:29.336147": {
+            "http://news.ycombinator.com": "data/raw_html/a8eb41be-c40b-4829-84a8-ad307c78ef01.html",
+            "http://www.datatau.com": "data/raw_html/9d21a171-0c77-47ea-84e3-25dc3ec1cae5.html"
+        },
+        "2015-04-11 18:24:34.368075": {
+            "http://news.ycombinator.com": "data/raw_html/207f0178-8587-45bf-978b-3aaf538d1274.html",
+            "http://www.datatau.com": "data/raw_html/d537252f-ce68-4ac0-82dc-5f502a7511a1.html"
+        },
+        "2015-04-11 21:24:37.256413": {
+            "http://news.ycombinator.com": "data/raw_html/eaf0d571-e376-49cf-9820-1608bd849db2.html",
+            "http://www.datatau.com": "data/raw_html/0eebc770-fecb-4d38-b091-1b8e4c46766c.html"
+        },
+        "2015-04-11 23:32:25.816691": {
+            "http://news.ycombinator.com": "data/raw_html/ec3d7eae-11ca-4090-8114-ca5c4993c816.html",
+            "http://www.datatau.com": "data/raw_html/8df3e0ce-192c-4804-953d-16f86c0be576.html"
+        },
+        "2015-04-12 02:32:28.362486": {
+            "http://news.ycombinator.com": "data/raw_html/81c742e8-a028-41e1-a4f3-a777d95b9a1b.html",
+            "http://www.datatau.com": "data/raw_html/e60f3725-cdc9-40ec-b485-bf993eb32bc7.html"
+        },
+        "2015-04-12 05:32:33.488735": {
+            "http://news.ycombinator.com": "data/raw_html/713a3e12-b486-4529-ab9d-f2e52bf55136.html",
+            "http://www.datatau.com": "data/raw_html/e121b723-b330-4aa8-b032-e5ba124f2773.html"
+        },
+        "2015-04-12 08:32:38.159565": {
+            "http://news.ycombinator.com": "data/raw_html/4437dae7-9c39-4160-8b04-3bcd8ea3a192.html",
+            "http://www.datatau.com": "data/raw_html/5bcf17c5-08d9-49d1-962a-e392edf6a4cb.html"
+        }
     }
 }
