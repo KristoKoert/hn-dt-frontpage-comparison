@@ -1,0 +1,1590 @@
+<html>
+ <head>
+  <meta content="origin" name="referrer">
+   <link href="news.css?fIIgmwbt0gXedQIf8LEr" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon">
+     <link href="rss" rel="alternate" title="RSS" type="application/rss+xml">
+      <script type="text/javascript">
+       function hide(id) {
+  var el = document.getElementById(id);
+  if (el) { el.style.visibility = 'hidden'; }
+}
+
+function vote(node) {
+  var v = node.id.split(/_/);   // {'up', '123'}
+  var item = v[1];
+
+  // hide arrows
+  hide('up_'   + item);
+  hide('down_' + item);
+
+  // ping server
+  var ping = new Image();
+  ping.src = node.href;
+
+  return false; // cancel browser nav
+}
+      </script>
+      <title>
+       Hacker News
+      </title>
+     </link>
+    </link>
+   </link>
+  </meta>
+ </head>
+ <body>
+  <center>
+   <table bgcolor="#f6f6ef" border="0" cellpadding="0" cellspacing="0" id="hnmain" op="news" width="85%">
+    <tr>
+     <td bgcolor="#ff6600">
+      <table border="0" cellpadding="0" cellspacing="0" style="padding:2px" width="100%">
+       <tr>
+        <td style="width:18px;padding-right:4px">
+         <a href="http://www.ycombinator.com">
+          <img height="18" src="y18.gif" style="border:1px #ffffff solid;" width="18"/>
+         </a>
+        </td>
+        <td style="line-height:12pt; height:10px;">
+         <span class="pagetop">
+          <b>
+           <a href="news">
+            Hacker News
+           </a>
+          </b>
+          <img height="1" src="s.gif" width="10">
+           <a href="newest">
+            new
+           </a>
+           |
+           <a href="newcomments">
+            comments
+           </a>
+           |
+           <a href="show">
+            show
+           </a>
+           |
+           <a href="ask">
+            ask
+           </a>
+           |
+           <a href="jobs">
+            jobs
+           </a>
+           |
+           <a href="submit">
+            submit
+           </a>
+          </img>
+         </span>
+        </td>
+        <td style="text-align:right;padding-right:4px;">
+         <span class="pagetop">
+          <a href="login?goto=news">
+           login
+          </a>
+         </span>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+    <tr style="height:10px">
+    </tr>
+    <tr>
+     <td>
+      <table border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          1.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364567&amp;dir=up&amp;goto=news" id="up_9364567">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://crpgaddict.blogspot.com/2015/04/game-183-shadowforge-1989.html">
+          John Carmack's First Game
+         </a>
+         <span class="sitebit comhead">
+          (crpgaddict.blogspot.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364567">
+          10 points
+         </span>
+         by
+         <a href="user?id=santaclaus">
+          santaclaus
+         </a>
+         <a href="item?id=9364567">
+          19 minutes ago
+         </a>
+         |
+         <a href="item?id=9364567">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          2.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364455&amp;dir=up&amp;goto=news" id="up_9364455">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.seattletimes.com/seattle-news/health/uw-scientists-biotech-firm-may-have-cure-for-colorblindness/">
+          UW scientists, biotech firm may have cure for colorblindness
+         </a>
+         <span class="sitebit comhead">
+          (seattletimes.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364455">
+          15 points
+         </span>
+         by
+         <a href="user?id=mdturnerphys">
+          mdturnerphys
+         </a>
+         <a href="item?id=9364455">
+          55 minutes ago
+         </a>
+         |
+         <a href="item?id=9364455">
+          1 comment
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          3.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364319&amp;dir=up&amp;goto=news" id="up_9364319">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://sphia.org/index.html">
+          Sophia: A modern embeddable key-value database – v1.2.2 released
+         </a>
+         <span class="sitebit comhead">
+          (sphia.org)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364319">
+          22 points
+         </span>
+         by
+         <a href="user?id=pmwkaa">
+          pmwkaa
+         </a>
+         <a href="item?id=9364319">
+          1 hour ago
+         </a>
+         |
+         <a href="item?id=9364319">
+          5 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          4.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363710&amp;dir=up&amp;goto=news" id="up_9363710">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.nytimes.com/2015/04/12/opinion/sunday/david-brooks-the-moral-bucket-list.html">
+          The Moral Bucket List
+         </a>
+         <span class="sitebit comhead">
+          (nytimes.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363710">
+          48 points
+         </span>
+         by
+         <a href="user?id=shakes">
+          shakes
+         </a>
+         <a href="item?id=9363710">
+          4 hours ago
+         </a>
+         |
+         <a href="item?id=9363710">
+          3 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          5.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364164&amp;dir=up&amp;goto=news" id="up_9364164">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.independent.co.uk/news/world/europe/spains-hologram-protest-thousands-join-virtual-march-in-madrid-against-new-gag-law-10170650.html">
+          Spain's hologram protest: Thousands join virtual march against new gag law
+         </a>
+         <span class="sitebit comhead">
+          (independent.co.uk)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364164">
+          15 points
+         </span>
+         by
+         <a href="user?id=kurren">
+          kurren
+         </a>
+         <a href="item?id=9364164">
+          2 hours ago
+         </a>
+         |
+         <a href="item?id=9364164">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          6.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363824&amp;dir=up&amp;goto=news" id="up_9363824">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://adrianchadd.blogspot.com/2015/04/intel-ddio-llc-cache-buffer-alignment.html">
+          Intel DDIO, LLC cache, buffer alignment, prefetching, and packet rates
+         </a>
+         <span class="sitebit comhead">
+          (adrianchadd.blogspot.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363824">
+          45 points
+         </span>
+         by
+         <a href="user?id=eadler">
+          eadler
+         </a>
+         <a href="item?id=9363824">
+          3 hours ago
+         </a>
+         |
+         <a href="item?id=9363824">
+          4 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          7.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364410&amp;dir=up&amp;goto=news" id="up_9364410">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.theguardian.com/books/2015/apr/10/eeriness-english-countryside-robert-macfarlane">
+          The eeriness of the English countryside
+         </a>
+         <span class="sitebit comhead">
+          (theguardian.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364410">
+          10 points
+         </span>
+         by
+         <a href="user?id=Thevet">
+          Thevet
+         </a>
+         <a href="item?id=9364410">
+          1 hour ago
+         </a>
+         |
+         <a href="item?id=9364410">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          8.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364405&amp;dir=up&amp;goto=news" id="up_9364405">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://keleshev.com/namespacing-variants-in-ml">
+          Namespacing Variants in ML
+         </a>
+         <span class="sitebit comhead">
+          (keleshev.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364405">
+          9 points
+         </span>
+         by
+         <a href="user?id=halst">
+          halst
+         </a>
+         <a href="item?id=9364405">
+          1 hour ago
+         </a>
+         |
+         <a href="item?id=9364405">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          9.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363577&amp;dir=up&amp;goto=news" id="up_9363577">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://coolwanglu.github.io/BrowserHack/">
+          BrowserHack: NetHack ported to the web
+         </a>
+         <span class="sitebit comhead">
+          (coolwanglu.github.io)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363577">
+          48 points
+         </span>
+         by
+         <a href="user?id=ivank">
+          ivank
+         </a>
+         <a href="item?id=9363577">
+          5 hours ago
+         </a>
+         |
+         <a href="item?id=9363577">
+          10 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          10.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363496&amp;dir=up&amp;goto=news" id="up_9363496">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="https://moalquraishi.wordpress.com/2015/03/29/the-state-of-probabilistic-programming/">
+          The State of Probabilistic Programming
+         </a>
+         <span class="sitebit comhead">
+          (moalquraishi.wordpress.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363496">
+          62 points
+         </span>
+         by
+         <a href="user?id=superfx">
+          superfx
+         </a>
+         <a href="item?id=9363496">
+          5 hours ago
+         </a>
+         |
+         <a href="item?id=9363496">
+          17 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          11.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363102&amp;dir=up&amp;goto=news" id="up_9363102">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://techcrunch.com/2015/04/11/twitter-cuts-off-datasift-to-step-up-its-own-b2b-big-data-analytics-business/#.acq8mm:kcu0">
+          Twitter Cuts Off DataSift To Step Up Its Own Big Data Business
+         </a>
+         <span class="sitebit comhead">
+          (techcrunch.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363102">
+          110 points
+         </span>
+         by
+         <a href="user?id=nailer">
+          nailer
+         </a>
+         <a href="item?id=9363102">
+          7 hours ago
+         </a>
+         |
+         <a href="item?id=9363102">
+          85 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          12.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364194&amp;dir=up&amp;goto=news" id="up_9364194">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://gocircuit.github.io/escher/">
+          Escher – A language for connecting technologies using pure metaphors
+         </a>
+         <span class="sitebit comhead">
+          (gocircuit.github.io)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364194">
+          8 points
+         </span>
+         by
+         <a href="user?id=state">
+          state
+         </a>
+         <a href="item?id=9364194">
+          2 hours ago
+         </a>
+         |
+         <a href="item?id=9364194">
+          1 comment
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          13.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363850&amp;dir=up&amp;goto=news" id="up_9363850">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://zinascii.com/2015/illumos-5498.html">
+          More Efficient TLB shootdowns
+         </a>
+         <span class="sitebit comhead">
+          (zinascii.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363850">
+          26 points
+         </span>
+         by
+         <a href="user?id=profquail">
+          profquail
+         </a>
+         <a href="item?id=9363850">
+          3 hours ago
+         </a>
+         |
+         <a href="item?id=9363850">
+          2 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          14.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364221&amp;dir=up&amp;goto=news" id="up_9364221">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/" rel="nofollow">
+          Firefly – Full Text Search Engine for Dropbox
+         </a>
+         <span class="sitebit comhead">
+          (dropbox.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364221">
+          5 points
+         </span>
+         by
+         <a href="user?id=human_afterall">
+          human_afterall
+         </a>
+         <a href="item?id=9364221">
+          2 hours ago
+         </a>
+         |
+         <a href="item?id=9364221">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          15.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364538&amp;dir=up&amp;goto=news" id="up_9364538">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://discobit.com" rel="nofollow">
+          Show HN: DiscoBit – Central Configuration Repository
+         </a>
+         <span class="sitebit comhead">
+          (discobit.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364538">
+          5 points
+         </span>
+         by
+         <a href="user?id=jsaade">
+          jsaade
+         </a>
+         <a href="item?id=9364538">
+          28 minutes ago
+         </a>
+         |
+         <a href="item?id=9364538">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          16.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364099&amp;dir=up&amp;goto=news" id="up_9364099">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.kotaku.com.au/2015/04/welcome-to-zynga-where-the-numbers-never-lie/">
+          Zynga, Where the Numbers Never Lie
+         </a>
+         <span class="sitebit comhead">
+          (kotaku.com.au)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364099">
+          19 points
+         </span>
+         by
+         <a href="user?id=curtis">
+          curtis
+         </a>
+         <a href="item?id=9364099">
+          2 hours ago
+         </a>
+         |
+         <a href="item?id=9364099">
+          7 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          17.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363738&amp;dir=up&amp;goto=news" id="up_9363738">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.antipope.org/charlie/blog-static/2015/04/on-the-great-filter-existentia.html">
+          On the Great Filter, existential threats, and griefers
+         </a>
+         <span class="sitebit comhead">
+          (antipope.org)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363738">
+          28 points
+         </span>
+         by
+         <a href="user?id=cstross">
+          cstross
+         </a>
+         <a href="item?id=9363738">
+          4 hours ago
+         </a>
+         |
+         <a href="item?id=9363738">
+          17 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          18.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363857&amp;dir=up&amp;goto=news" id="up_9363857">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.docear.org/">
+          Docear – The Academic Literature Suite
+         </a>
+         <span class="sitebit comhead">
+          (docear.org)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363857">
+          15 points
+         </span>
+         by
+         <a href="user?id=jestinjoy1">
+          jestinjoy1
+         </a>
+         <a href="item?id=9363857">
+          3 hours ago
+         </a>
+         |
+         <a href="item?id=9363857">
+          1 comment
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          19.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363631&amp;dir=up&amp;goto=news" id="up_9363631">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.bloomberg.com/news/articles/2015-04-09/china-embraces-desalination-to-ease-water-shortages">
+          China Turns to the Sea for Fresh Water
+         </a>
+         <span class="sitebit comhead">
+          (bloomberg.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363631">
+          36 points
+         </span>
+         by
+         <a href="user?id=Sami_Lehtinen">
+          Sami_Lehtinen
+         </a>
+         <a href="item?id=9363631">
+          4 hours ago
+         </a>
+         |
+         <a href="item?id=9363631">
+          35 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          20.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363635&amp;dir=up&amp;goto=news" id="up_9363635">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://c2.com/cgi/wiki?ClosuresAndObjectsAreEquivalent">
+          Closures and Objects Are Equivalent
+         </a>
+         <span class="sitebit comhead">
+          (c2.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363635">
+          31 points
+         </span>
+         by
+         <a href="user?id=shawndumas">
+          shawndumas
+         </a>
+         <a href="item?id=9363635">
+          4 hours ago
+         </a>
+         |
+         <a href="item?id=9363635">
+          29 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          21.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363539&amp;dir=up&amp;goto=news" id="up_9363539">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://priceonomics.com/why-nobel-winning-scientists-are-getting-older/">
+          Why Nobel-Winning Scientists Are Getting Older
+         </a>
+         <span class="sitebit comhead">
+          (priceonomics.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363539">
+          33 points
+         </span>
+         by
+         <a href="user?id=danso">
+          danso
+         </a>
+         <a href="item?id=9363539">
+          5 hours ago
+         </a>
+         |
+         <a href="item?id=9363539">
+          18 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          22.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363990&amp;dir=up&amp;goto=news" id="up_9363990">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://techcrunch.com/2015/04/12/how-pixar-solves-problems-from-the-inside-out/">
+          How Pixar Solves Problems from the Inside Out
+         </a>
+         <span class="sitebit comhead">
+          (techcrunch.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363990">
+          19 points
+         </span>
+         by
+         <a href="user?id=simas">
+          simas
+         </a>
+         <a href="item?id=9363990">
+          3 hours ago
+         </a>
+         |
+         <a href="item?id=9363990">
+          1 comment
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          23.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9362252&amp;dir=up&amp;goto=news" id="up_9362252">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.garlikov.com/Soc_Meth.html">
+          The Socratic Method: Teaching by Asking Instead of by Telling
+         </a>
+         <span class="sitebit comhead">
+          (garlikov.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9362252">
+          219 points
+         </span>
+         by
+         <a href="user?id=oxplot">
+          oxplot
+         </a>
+         <a href="item?id=9362252">
+          15 hours ago
+         </a>
+         |
+         <a href="item?id=9362252">
+          52 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          24.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364175&amp;dir=up&amp;goto=news" id="up_9364175">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://arima.io" rel="nofollow">
+          Show HN: Arima – Create and browse polls, get answers and see stats visualized
+         </a>
+         <span class="sitebit comhead">
+          (arima.io)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364175">
+          4 points
+         </span>
+         by
+         <a href="user?id=winstonl">
+          winstonl
+         </a>
+         <a href="item?id=9364175">
+          2 hours ago
+         </a>
+         |
+         <a href="item?id=9364175">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          25.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363871&amp;dir=up&amp;goto=news" id="up_9363871">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="https://www.tbray.org/ongoing/When/201x/2015/04/11/So-What">
+          “So, …” What?
+         </a>
+         <span class="sitebit comhead">
+          (tbray.org)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363871">
+          47 points
+         </span>
+         by
+         <a href="user?id=wglb">
+          wglb
+         </a>
+         <a href="item?id=9363871">
+          3 hours ago
+         </a>
+         |
+         <a href="item?id=9363871">
+          60 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          26.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363893&amp;dir=up&amp;goto=news" id="up_9363893">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate/ar/1">
+          Reengineering Work: Don’t Automate, Obliterate
+         </a>
+         <span class="sitebit comhead">
+          (hbr.org)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363893">
+          12 points
+         </span>
+         by
+         <a href="user?id=applecore">
+          applecore
+         </a>
+         <a href="item?id=9363893">
+          3 hours ago
+         </a>
+         |
+         <a href="item?id=9363893">
+          3 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          27.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363458&amp;dir=up&amp;goto=news" id="up_9363458">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.ribbonfarm.com/2015/04/08/the-essence-of-peopling/">
+          The Essence of Peopling
+         </a>
+         <span class="sitebit comhead">
+          (ribbonfarm.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363458">
+          85 points
+         </span>
+         by
+         <a href="user?id=ivank">
+          ivank
+         </a>
+         <a href="item?id=9363458">
+          5 hours ago
+         </a>
+         |
+         <a href="item?id=9363458">
+          22 comments
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          28.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9364504&amp;dir=up&amp;goto=news" id="up_9364504">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://www.thedailybeast.com/articles/2015/04/12/the-untold-story-of-mussolini-s-fake-diaries.html" rel="nofollow">
+          The Untold Story of Mussolini’s Fake Diaries
+         </a>
+         <span class="sitebit comhead">
+          (thedailybeast.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9364504">
+          4 points
+         </span>
+         by
+         <a href="user?id=samclemens">
+          samclemens
+         </a>
+         <a href="item?id=9364504">
+          42 minutes ago
+         </a>
+         |
+         <a href="item?id=9364504">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          29.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363415&amp;dir=up&amp;goto=news" id="up_9363415">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="https://github.com/0xAX/linux-insides/blob/master/Initialization/linux-initialization-5.md">
+          Linux kernel initialization, part 5
+         </a>
+         <span class="sitebit comhead">
+          (github.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363415">
+          41 points
+         </span>
+         by
+         <a href="user?id=0xAX">
+          0xAX
+         </a>
+         <a href="item?id=9363415">
+          6 hours ago
+         </a>
+         |
+         <a href="item?id=9363415">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr>
+        <td align="right" class="title" valign="top">
+         <span class="rank">
+          30.
+         </span>
+        </td>
+        <td>
+         <center>
+          <a href="vote?for=9363711&amp;dir=up&amp;goto=news" id="up_9363711">
+           <div class="votearrow" title="upvote">
+           </div>
+          </a>
+         </center>
+        </td>
+        <td class="title">
+         <span class="deadmark">
+         </span>
+         <a href="http://blog.sashalaundy.com/talks/asking-helping/">
+          Your Brain's API: Giving and Getting Technical Help
+         </a>
+         <span class="sitebit comhead">
+          (sashalaundy.com)
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="subtext">
+         <span class="score" id="score_9363711">
+          16 points
+         </span>
+         by
+         <a href="user?id=luu">
+          luu
+         </a>
+         <a href="item?id=9363711">
+          4 hours ago
+         </a>
+         |
+         <a href="item?id=9363711">
+          discuss
+         </a>
+        </td>
+       </tr>
+       <tr style="height:5px">
+       </tr>
+       <tr style="height:10px">
+       </tr>
+       <tr>
+        <td colspan="2">
+        </td>
+        <td class="title">
+         <a href="news?p=2" rel="nofollow">
+          More
+         </a>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <img height="10" src="s.gif" width="0">
+       <table cellpadding="1" cellspacing="0" width="100%">
+        <tr>
+         <td bgcolor="#ff6600">
+         </td>
+        </tr>
+       </table>
+       <br>
+        <center>
+         <span class="yclinks">
+          <a href="newsguidelines.html">
+           Guidelines
+          </a>
+          |
+          <a href="newsfaq.html">
+           FAQ
+          </a>
+          |
+          <a href="mailto:hn@ycombinator.com">
+           Support
+          </a>
+          |
+          <a href="https://github.com/HackerNews/API">
+           API
+          </a>
+          |
+          <a href="lists">
+           Lists
+          </a>
+          |
+          <a href="bookmarklet.html">
+           Bookmarklet
+          </a>
+          |
+          <a href="dmca.html">
+           DMCA
+          </a>
+          |
+          <a href="http://www.ycombinator.com/">
+           Y Combinator
+          </a>
+          |
+          <a href="http://www.ycombinator.com/apply/">
+           Apply
+          </a>
+          |
+          <a href="mailto:hn@ycombinator.com">
+           Contact
+          </a>
+         </span>
+         <br>
+          <br>
+           <form action="//hn.algolia.com/" method="get">
+            Search:
+            <input name="q" size="17" type="text" value=""/>
+           </form>
+          </br>
+         </br>
+        </center>
+       </br>
+      </img>
+     </td>
+    </tr>
+   </table>
+  </center>
+ </body>
+</html>

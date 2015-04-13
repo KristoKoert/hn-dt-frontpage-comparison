@@ -4,6 +4,7 @@ import analysis
 import visualization
 from datetime import datetime, timedelta
 from time import sleep
+from util import time_and_log
 
 
 def run_in_interval(interval_hours):
@@ -17,6 +18,7 @@ def run_in_interval(interval_hours):
             sleep(10)
 
 
+@time_and_log
 def run():
     print("Running @", datetime.now())
     print("Downloading data..")
